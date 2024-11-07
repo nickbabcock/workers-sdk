@@ -8,7 +8,7 @@
 		"check:type": "tsc",
 		"test:ci": "vitest run",
 		"test:watch": "vitest",
-		"type:tests": "tsc -p ./tests/tsconfig.json"
+		"type:tests": "npm install && tsc -p ./tests/tsconfig.json"
 	},
 	"dependencies": {
 		"import-wasm-static": "../../../../fixtures/import-wasm-static"
