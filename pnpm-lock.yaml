@@ -223,6 +223,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/wrangler
 
+  fixtures/import-npm: {}
+
   fixtures/import-wasm-example:
     dependencies:
       import-wasm-static:
